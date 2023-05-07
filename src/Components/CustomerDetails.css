@@ -1,0 +1,46 @@
+.mainDiv {
+    width: 98% !important;
+    margin-top: 15px;
+
+
+}
+
+
+
+.flex {
+    display: flex !important;
+
+}
+
+select {
+    height: 30px;
+    margin-left: 10px !important;
+}
+
+.form-control {
+    height: 30px;
+    margin-left: 5px;
+}
+
+.col-12 {
+    margin-top: 10px;
+}
+
+.btn {
+    margin-left: 8px;
+}
+
+h5 {
+
+    text-decoration: underline;
+
+}
+
+label {
+    display: flex !important;
+}
+
+label.required::after {
+    content: " *";
+    color: red;
+}
